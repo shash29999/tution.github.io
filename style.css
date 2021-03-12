@@ -1,0 +1,141 @@
+
+#container {
+    width: 1050px;
+/*    border: 1px solid grey;*/
+    margin:0px auto;
+}
+#header{
+    height:100px;
+    padding:10px 0px;
+}
+#brand{
+    float:left;
+}
+h1 a{
+    font-size:50px;
+    font-weight:100;
+    color:#861BBF;
+    text-decoration:none;
+}   
+#searchbox{
+    float:right;
+    background:linear-gradient(orange,green);
+    width:400px;
+    height:50px;
+    padding-top:20px 20px 0px 20px;
+    margin-top:20px;
+}
+.text{
+    float:left;
+    width:200px;
+    padding:5px;
+    font-size: 15px;
+    color:orange;
+    background:white url(images/search.png) right center no-repeat; 
+    
+}
+.submit{
+    float:right;
+    padding:5px;
+    font-weight: bold;
+    color:white;
+    background:purple;
+    font-size:15px;
+}
+.clear{
+    clear=both;
+}
+#menu{
+    height:70px;
+    background: linear-gradient(lightyellow,yellow);
+    padding: 7px 0px;
+}
+ul{
+    list-style:none;
+}
+#menu ul li{
+    float:left;
+    padding:0px 30px;
+    height: 30px;
+    border-right: 1px solid rebeccapurple;
+}
+#menu ul li:last-child{
+    border-right:none;
+}
+#menu ul li a{
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size:17px;
+    color:rebeccapurple;
+    line-height: 30px;
+    transition: font-size 0.3s ease;
+}
+#menu ul li a:hover,#menu ul li a.active {
+    font-size:20px;
+    font-weight: bold;
+    color:purple;
+}
+#introduction{
+    background : linear-gradient(darkgreen,green);
+    padding:30px;
+    margin:16px 0px;
+}
+#introduction h1{
+    font-size: 45px;
+    color:greenyellow;
+    font-weight: normal;
+}
+#introduction p{
+    font-size:25px;
+    color:darkseagreen;
+    text-align: justify;
+    
+}
+.sidebar{
+    height:500px;
+    width:450px;
+    border:1px solid darkseagreen;
+    border-radius:20px;
+    padding:10px 30px;
+}
+.sidebar h3{
+    color:purple;
+    font-size: 30px; 
+}
+#leftsidebar ul{
+    padding-top: 8px;
+}
+#leftsidebar ul li{
+    padding-bottom:4px;
+    padding-left:10px;
+    padding-top:4px;
+    list-style-image: url(images/LogoMakr-1Gam2U.png);
+}
+#rightsidebar ul li{
+    padding-bottom:20px;
+    padding-top:20px;
+    list-style-image: url(images/tick.png);
+}
+#rightsidebar ul li a{
+    font-size:25px;
+}
+
+.sidebar ul li a{
+    text-decoration:none;
+    font-size:20px;
+    color:rebeccapurple;
+    transition:font-size 0.3s ease; 
+}
+.sidebar ul li a:hover,.sidebar ul li a.active{
+    text-decoration: none;
+    color:purple;
+    font-size:23px;
+    font-weight:bold;
+}
+#leftsidebar{
+    float:left;
+    
+}
+#rightsidebar{
+    float:right;
+}
